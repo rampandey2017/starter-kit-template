@@ -1,7 +1,80 @@
+//Background Colors
+.bg-color{
+	background-color: $white
+}
+.bg-color2{
+	background-color: $primaryColor;
+}
+.bg-color3{
+	background-color: $secondaryColor;
+}
+.bg-color4{
+	background-color: $black;
+}
+.bg-color5{
+	background-color: $gray;
+}
+
 //Section default style
 section {
-    &.main-section {
-        padding: 50px 0;
+    &.section-spacing {
+        padding:100px  0px;
+    }
+    &.inner-spacing {
+        padding:60px 0px;
+    }
+    .section-overlay {
+        position:relative;
+        z-index:1;
+    }
+    &.section-overlay {
+        &:before {
+            content:"";
+            position:absolute;
+            background-color:rgba(0, 0, 0, 0.57);
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            z-index:2;
+        }
+    }
+    &.banner-wells {
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+//Full header Section
+.wells-container {
+    font-size: 50px;
+    color: $white;
+    margin-bottom: 10px;
+    .breadcrumb {
+        padding: 0;
+        background-color: transparent;
+        margin-bottom:0;
+        font-size: 20px;
+        color: $white;
+        a {
+            font-size: 20px;
+            color: $white;
+        }
+        .active {
+            a {
+                color: $secondaryColor;
+            }
+        }
+    }
+    .breadcrumb-item {
+        &+.breadcrumb-item {
+            &::before {
+                color: $white;
+                font-size:20px;
+            }
+        }
     }
 }
 
@@ -19,6 +92,9 @@ section {
     overflow: hidden;
     border:1px solid $gray;
     padding: 10px;
+}
+.js-marquee-wrapper {
+    overflow: hidden;
 }
 
 //Full CTA Section

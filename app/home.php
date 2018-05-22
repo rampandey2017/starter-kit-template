@@ -36,7 +36,9 @@
     <?php include('hero-banner.php'); ?>
     <?php include('news-scroller.php'); ?>
     <?php include('notification.php'); ?>
-    <?php include('full-cta.php'); ?> <!--  http://preview.themeforest.net/item/edufair-multipurpose-html-template-for-education/full_screen_preview/21088720 -->
+    <?php include('full-cta.php'); ?> 
+    <!--  http://preview.themeforest.net/item/edufair-multipurpose-html-template-for-education/full_screen_preview/21088720 -->
+    <?php include('inner-page-full-header.php'); ?>
   </main>
   <?php include('footer.php'); ?>
   <!--build:js js/main.min.js -->

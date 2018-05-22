@@ -1,4 +1,4 @@
-<section class="main-section">
+<section class="section-spacing bg-color">
     <div class="container" >
         <div class="row" >
             <div class="col-md-4">

@@ -1,4 +1,4 @@
-<<section class="full-cta">
+<section class="full-cta">
     <div class="row" >
         <div class="col-md-8" >
             <div class="cta-left" >
