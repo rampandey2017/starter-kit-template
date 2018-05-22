@@ -1,0 +1,49 @@
+header {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+.header-top {
+    background: $primaryColor;
+}
+.contact-info {
+    li {
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        float: left;
+        padding: 8px 15px 8px 0;
+        margin-right: 15px;
+        &:last-child {
+            border-right: medium none;
+            margin-right: 0;
+        }
+        a {
+            color: $black;
+            display: block;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+}
+.header-social-menu {
+    float: right;
+    li {
+        float: left;
+        margin-left: 20px;
+        padding: 2px 0;
+    }
+    a {
+        color: $black;
+        display: block;
+        font-size: 20px;
+    }
+}
+
+.header-middle {
+    background: $white;
+    .logo-container {
+        padding: 15px 0;
+    }
+}

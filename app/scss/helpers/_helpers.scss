@@ -1,0 +1,28 @@
+//Section default style
+section {
+    &.main-section {
+        padding: 50px 0;
+    }
+}
+
+//News vertical scroll
+.vertical-news {
+    .news-item {
+        padding:4px 4px;
+        margin:0px;
+        border-bottom:1px dotted $gray; 
+    }
+}
+
+//Horizontal text scroller
+.marquee {
+    overflow: hidden;
+    border:1px solid $gray;
+    padding: 10px;
+}
+
+//Full CTA Section
+.full-cta {
+    background: $gray;
+    min-height: 100px;
+}
