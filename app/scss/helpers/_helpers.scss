@@ -88,13 +88,21 @@ section {
 }
 
 //Horizontal text scroller
+.news-scroller {
+    background: $primaryColor;
+}
+
 .marquee {
     overflow: hidden;
-    border:1px solid $gray;
     padding: 10px;
 }
+
 .js-marquee-wrapper {
     overflow: hidden;
+}
+
+.js-marquee span {
+    font-size: 20px;
 }
 
 //Full CTA Section

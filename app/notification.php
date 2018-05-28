@@ -4,7 +4,7 @@
             <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading"> 
-                    <i class="fa fa-calendar" aria-hidden="true"></i> News
+                    News &amp; Updates
                 </div>
                 <div class="panel-body">
                     <div class="row">

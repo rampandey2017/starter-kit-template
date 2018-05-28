@@ -1,6 +1,5 @@
 .main-menu {
     background: $primaryColor;
-    padding: 10px 0;
 }
 .navbar-brand{
      padding: 29px 15px;
@@ -16,8 +15,7 @@ nav.navbar.bootsnav ul.nav > li{
      margin-right: 10px;
 }
  nav.navbar.bootsnav ul.nav > li > a{
-     padding: 12px 25px;
-     border-radius: 30px;
+     padding: 18px;
      margin: 0;
      color: $black;
      text-transform: uppercase;
@@ -25,7 +23,7 @@ nav.navbar.bootsnav ul.nav > li{
      transition: all 0.5s ease 0s;
 }
  nav.navbar.bootsnav ul.nav > li.dropdown > a{
-     padding: 12px 30px 12px 25px;
+     padding: 18px 35px 18px 18px;
 }
  nav.navbar.bootsnav ul.nav > li.active > a, nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.nav > li.active > a:hover, nav.navbar.bootsnav ul.nav > li.dropdown.on > a, nav.navbar.bootsnav ul.nav > li.megamenu-fw > a:hover{
      color: $white;
@@ -52,7 +50,6 @@ nav.navbar.bootsnav ul.nav > li{
  nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
      border: none;
-     border-radius: 10px;
 }
  nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li{
      font-size: 14px;

@@ -1,0 +1,13 @@
+.panel-default {
+    border: none;
+    & > .panel-heading {
+        color: $white;
+        background: $secondaryColor;
+        border: none;
+        font-size: 20px;
+    }
+}
+.panel-footer {
+    border: none;
+    background: $gray;
+}
